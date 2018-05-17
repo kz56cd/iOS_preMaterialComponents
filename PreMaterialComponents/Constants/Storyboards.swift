@@ -58,10 +58,10 @@ internal enum StoryboardScene {
 
     internal static let initialScene = InitialSceneType<UIViewController>(storyboard: LaunchScreen.self)
   }
-  internal enum Main: StoryboardType {
-    internal static let storyboardName = "Main"
+  internal enum OriginalViewController: StoryboardType {
+    internal static let storyboardName = "OriginalViewController"
 
-    internal static let initialScene = InitialSceneType<PreMaterialComponents.ViewController>(storyboard: Main.self)
+    internal static let initialScene = InitialSceneType<PreMaterialComponents.OriginalViewController>(storyboard: OriginalViewController.self)
   }
   internal enum TopViewController: StoryboardType {
     internal static let storyboardName = "TopViewController"
