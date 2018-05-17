@@ -1,0 +1,6 @@
+framework module Pods_PreMaterialComponentsUITests {
+  umbrella header "Pods-PreMaterialComponentsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

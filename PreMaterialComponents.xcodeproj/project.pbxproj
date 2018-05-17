@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94236D8D5DB44E383DC8689C /* Pods_PreMaterialComponentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CAAAAEB1E6C626C28214F7 /* Pods_PreMaterialComponentsTests.framework */; };
+		BCD8BA5DE18A5EE7FBD05DEA /* Pods_PreMaterialComponentsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC4EAC1B594EF9824F0EA6A /* Pods_PreMaterialComponentsUITests.framework */; };
 		EADBDBA820AAF987006798E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBA720AAF987006798E7 /* AppDelegate.swift */; };
 		EADBDBAA20AAF987006798E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBA920AAF987006798E7 /* ViewController.swift */; };
 		EADBDBAD20AAF987006798E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADBDBAB20AAF987006798E7 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		EADBDBB220AAF988006798E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADBDBB020AAF988006798E7 /* LaunchScreen.storyboard */; };
 		EADBDBBD20AAF988006798E7 /* PreMaterialComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBBC20AAF988006798E7 /* PreMaterialComponentsTests.swift */; };
 		EADBDBC820AAF988006798E7 /* PreMaterialComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBC720AAF988006798E7 /* PreMaterialComponentsUITests.swift */; };
+		FB8918851049CDFA5D055127 /* Pods_PreMaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		137C25A8092F6713DE4070B2 /* Pods-PreMaterialComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponents.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponents/Pods-PreMaterialComponents.release.xcconfig"; sourceTree = "<group>"; };
+		316049C197C36EC5CDDEDDE2 /* Pods-PreMaterialComponentsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponentsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponentsTests/Pods-PreMaterialComponentsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AC4EAC1B594EF9824F0EA6A /* Pods_PreMaterialComponentsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreMaterialComponentsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1182B4F2F974B824DBB9CD /* Pods-PreMaterialComponentsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponentsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponentsTests/Pods-PreMaterialComponentsTests.release.xcconfig"; sourceTree = "<group>"; };
+		77CAAAAEB1E6C626C28214F7 /* Pods_PreMaterialComponentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreMaterialComponentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE2DD6FD5181BCC391683B6 /* Pods-PreMaterialComponentsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponentsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponentsUITests/Pods-PreMaterialComponentsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C70D600E61A296AC94AF978D /* Pods-PreMaterialComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponents/Pods-PreMaterialComponents.debug.xcconfig"; sourceTree = "<group>"; };
 		EADBDBA420AAF987006798E7 /* PreMaterialComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreMaterialComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADBDBA720AAF987006798E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EADBDBA920AAF987006798E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		EADBDBC320AAF988006798E7 /* PreMaterialComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreMaterialComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADBDBC720AAF988006798E7 /* PreMaterialComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreMaterialComponentsUITests.swift; sourceTree = "<group>"; };
 		EADBDBC920AAF988006798E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43FCA87D5391DBE950E46D7 /* Pods-PreMaterialComponentsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponentsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponentsUITests/Pods-PreMaterialComponentsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreMaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8918851049CDFA5D055127 /* Pods_PreMaterialComponents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94236D8D5DB44E383DC8689C /* Pods_PreMaterialComponentsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD8BA5DE18A5EE7FBD05DEA /* Pods_PreMaterialComponentsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AAC35B12CB6119046A41BB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C70D600E61A296AC94AF978D /* Pods-PreMaterialComponents.debug.xcconfig */,
+				137C25A8092F6713DE4070B2 /* Pods-PreMaterialComponents.release.xcconfig */,
+				316049C197C36EC5CDDEDDE2 /* Pods-PreMaterialComponentsTests.debug.xcconfig */,
+				5D1182B4F2F974B824DBB9CD /* Pods-PreMaterialComponentsTests.release.xcconfig */,
+				ADE2DD6FD5181BCC391683B6 /* Pods-PreMaterialComponentsUITests.debug.xcconfig */,
+				F43FCA87D5391DBE950E46D7 /* Pods-PreMaterialComponentsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD42F04EFE8BA8AFED609F8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */,
+				77CAAAAEB1E6C626C28214F7 /* Pods_PreMaterialComponentsTests.framework */,
+				5AC4EAC1B594EF9824F0EA6A /* Pods_PreMaterialComponentsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EADBDB9B20AAF987006798E7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				EADBDBBB20AAF988006798E7 /* PreMaterialComponentsTests */,
 				EADBDBC620AAF988006798E7 /* PreMaterialComponentsUITests */,
 				EADBDBA520AAF987006798E7 /* Products */,
+				6AAC35B12CB6119046A41BB6 /* Pods */,
+				BD42F04EFE8BA8AFED609F8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EADBDBCC20AAF988006798E7 /* Build configuration list for PBXNativeTarget "PreMaterialComponents" */;
 			buildPhases = (
+				3FF6FF3A9694428A8418FA39 /* [CP] Check Pods Manifest.lock */,
 				EADBDBA020AAF987006798E7 /* Sources */,
 				EADBDBA120AAF987006798E7 /* Frameworks */,
 				EADBDBA220AAF987006798E7 /* Resources */,
+				D401DB3F9C0D28D572DEB361 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EADBDBCF20AAF988006798E7 /* Build configuration list for PBXNativeTarget "PreMaterialComponentsTests" */;
 			buildPhases = (
+				1DC26EA7CE64291EE68A0C8B /* [CP] Check Pods Manifest.lock */,
 				EADBDBB420AAF988006798E7 /* Sources */,
 				EADBDBB520AAF988006798E7 /* Frameworks */,
 				EADBDBB620AAF988006798E7 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EADBDBD220AAF988006798E7 /* Build configuration list for PBXNativeTarget "PreMaterialComponentsUITests" */;
 			buildPhases = (
+				CB301820224AE320A944025F /* [CP] Check Pods Manifest.lock */,
 				EADBDBBF20AAF988006798E7 /* Sources */,
 				EADBDBC020AAF988006798E7 /* Frameworks */,
 				EADBDBC120AAF988006798E7 /* Resources */,
@@ -250,6 +294,91 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DC26EA7CE64291EE68A0C8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PreMaterialComponentsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF6FF3A9694428A8418FA39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PreMaterialComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB301820224AE320A944025F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PreMaterialComponentsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D401DB3F9C0D28D572DEB361 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PreMaterialComponents/Pods-PreMaterialComponents-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PreMaterialComponents/Pods-PreMaterialComponents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EADBDBA020AAF987006798E7 /* Sources */ = {
@@ -428,15 +557,13 @@
 		};
 		EADBDBCD20AAF988006798E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70D600E61A296AC94AF978D /* Pods-PreMaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponents/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +573,13 @@
 		};
 		EADBDBCE20AAF988006798E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137C25A8092F6713DE4070B2 /* Pods-PreMaterialComponents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponents/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +589,14 @@
 		};
 		EADBDBD020AAF988006798E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316049C197C36EC5CDDEDDE2 /* Pods-PreMaterialComponentsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponentsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +607,14 @@
 		};
 		EADBDBD120AAF988006798E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1182B4F2F974B824DBB9CD /* Pods-PreMaterialComponentsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponentsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +625,13 @@
 		};
 		EADBDBD320AAF988006798E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE2DD6FD5181BCC391683B6 /* Pods-PreMaterialComponentsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponentsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponentsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +642,13 @@
 		};
 		EADBDBD420AAF988006798E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43FCA87D5391DBE950E46D7 /* Pods-PreMaterialComponentsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponentsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponentsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
