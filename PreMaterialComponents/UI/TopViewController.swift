@@ -23,20 +23,18 @@ enum SandboxType {
     
     var text: String {
         return String(reflecting: self)
-            .replacingOccurrences(of: String(reflecting: SandboxType.self), with: "")
+            .replacingOccurrences(
+                of: String(reflecting: SandboxType.self) + ".",
+                with: ""
+            )
     }
 }
 
 final class TopViewController: UIViewController {
-    
     let list: [SandboxType] = [
         .original,
         .flexibleHeader
     ]
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 }
 
 extension TopViewController: UITableViewDataSource {
