@@ -1,15 +1,15 @@
 //
-//  ViewController.swift
+//  OriginalViewController.swift
 //  PreMaterialComponents
 //
-//  Created by Masakazu Sano on 2018/05/15.
+//  Created by Masakazu Sano on 2018/05/17.
 //  Copyright © 2018年 Masakazu Sano. All rights reserved.
 //
 
 import UIKit
 import MaterialComponents
 
-class ViewController: UIViewController {
+class OriginalViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,4 @@ class ViewController: UIViewController {
         alertController.addAction(MDCAlertAction(title:"OK"))
         present(alertController, animated: true, completion: nil)
     }
-    
-    
 }
-

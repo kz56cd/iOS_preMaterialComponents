@@ -53,15 +53,25 @@ internal extension UIViewController {
 
 // swiftlint:disable explicit_type_interface identifier_name line_length type_body_length type_name
 internal enum StoryboardScene {
+  internal enum ContentViewController: StoryboardType {
+    internal static let storyboardName = "ContentViewController"
+
+    internal static let initialScene = InitialSceneType<PreMaterialComponents.ContentViewController>(storyboard: ContentViewController.self)
+  }
+  internal enum FlexibleHeaderViewController: StoryboardType {
+    internal static let storyboardName = "FlexibleHeaderViewController"
+
+    internal static let initialScene = InitialSceneType<PreMaterialComponents.FlexibleHeaderViewController>(storyboard: FlexibleHeaderViewController.self)
+  }
   internal enum LaunchScreen: StoryboardType {
     internal static let storyboardName = "LaunchScreen"
 
     internal static let initialScene = InitialSceneType<UIViewController>(storyboard: LaunchScreen.self)
   }
-  internal enum Main: StoryboardType {
-    internal static let storyboardName = "Main"
+  internal enum OriginalViewController: StoryboardType {
+    internal static let storyboardName = "OriginalViewController"
 
-    internal static let initialScene = InitialSceneType<PreMaterialComponents.ViewController>(storyboard: Main.self)
+    internal static let initialScene = InitialSceneType<PreMaterialComponents.OriginalViewController>(storyboard: OriginalViewController.self)
   }
   internal enum TopViewController: StoryboardType {
     internal static let storyboardName = "TopViewController"
