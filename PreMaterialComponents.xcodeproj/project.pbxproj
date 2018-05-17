@@ -13,6 +13,12 @@
 		EA947FBC20AD66B1000C350B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FB720AD66B0000C350B /* TopViewController.swift */; };
 		EA947FBD20AD66B1000C350B /* OriginalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FB820AD66B0000C350B /* OriginalViewController.swift */; };
 		EA947FBE20AD66B1000C350B /* TopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA947FB920AD66B0000C350B /* TopViewController.storyboard */; };
+		EA947FC220ADC95A000C350B /* FlexibleHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FC120ADC95A000C350B /* FlexibleHeaderViewController.swift */; };
+		EA947FC420ADC987000C350B /* FlexibleHeaderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA947FC320ADC987000C350B /* FlexibleHeaderViewController.storyboard */; };
+		EA947FC620ADCB6A000C350B /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FC520ADCB6A000C350B /* ContentViewController.swift */; };
+		EA947FC820ADCB75000C350B /* ContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA947FC720ADCB75000C350B /* ContentViewController.storyboard */; };
+		EA947FCA20ADCE4D000C350B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FC920ADCE4D000C350B /* HeaderView.swift */; };
+		EA947FCC20ADCE57000C350B /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA947FCB20ADCE57000C350B /* HeaderView.xib */; };
 		EABCC48F20AD5EEC00B05C86 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABCC48E20AD5EEC00B05C86 /* Storyboards.swift */; };
 		EADBDBA820AAF987006798E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBA720AAF987006798E7 /* AppDelegate.swift */; };
 		EADBDBAF20AAF988006798E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADBDBAE20AAF988006798E7 /* Assets.xcassets */; };
@@ -51,6 +57,12 @@
 		EA947FB720AD66B0000C350B /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		EA947FB820AD66B0000C350B /* OriginalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalViewController.swift; sourceTree = "<group>"; };
 		EA947FB920AD66B0000C350B /* TopViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TopViewController.storyboard; sourceTree = "<group>"; };
+		EA947FC120ADC95A000C350B /* FlexibleHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleHeaderViewController.swift; sourceTree = "<group>"; };
+		EA947FC320ADC987000C350B /* FlexibleHeaderViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FlexibleHeaderViewController.storyboard; sourceTree = "<group>"; };
+		EA947FC520ADCB6A000C350B /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		EA947FC720ADCB75000C350B /* ContentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContentViewController.storyboard; sourceTree = "<group>"; };
+		EA947FC920ADCE4D000C350B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EA947FCB20ADCE57000C350B /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		EABCC48E20AD5EEC00B05C86 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		EADBDBA420AAF987006798E7 /* PreMaterialComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreMaterialComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADBDBA720AAF987006798E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,8 +135,8 @@
 			children = (
 				EA947FC020ADB9B7000C350B /* Original */,
 				EA947FBF20ADB9B7000C350B /* FlexibleHeader */,
-				EA947FB720AD66B0000C350B /* TopViewController.swift */,
 				EA947FB920AD66B0000C350B /* TopViewController.storyboard */,
+				EA947FB720AD66B0000C350B /* TopViewController.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -132,6 +144,11 @@
 		EA947FBF20ADB9B7000C350B /* FlexibleHeader */ = {
 			isa = PBXGroup;
 			children = (
+				EA947FCD20ADCF81000C350B /* view */,
+				EA947FC320ADC987000C350B /* FlexibleHeaderViewController.storyboard */,
+				EA947FC120ADC95A000C350B /* FlexibleHeaderViewController.swift */,
+				EA947FC720ADCB75000C350B /* ContentViewController.storyboard */,
+				EA947FC520ADCB6A000C350B /* ContentViewController.swift */,
 			);
 			path = FlexibleHeader;
 			sourceTree = "<group>";
@@ -143,6 +160,15 @@
 				EA947FB820AD66B0000C350B /* OriginalViewController.swift */,
 			);
 			path = Original;
+			sourceTree = "<group>";
+		};
+		EA947FCD20ADCF81000C350B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EA947FC920ADCE4D000C350B /* HeaderView.swift */,
+				EA947FCB20ADCE57000C350B /* HeaderView.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		EADBDB9B20AAF987006798E7 = {
@@ -316,9 +342,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA947FBB20AD66B1000C350B /* OriginalViewController.storyboard in Resources */,
+				EA947FC420ADC987000C350B /* FlexibleHeaderViewController.storyboard in Resources */,
 				EADBDBB220AAF988006798E7 /* LaunchScreen.storyboard in Resources */,
 				EADBDBAF20AAF988006798E7 /* Assets.xcassets in Resources */,
+				EA947FC820ADCB75000C350B /* ContentViewController.storyboard in Resources */,
 				EA947FBE20AD66B1000C350B /* TopViewController.storyboard in Resources */,
+				EA947FCC20ADCE57000C350B /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,8 +473,11 @@
 			files = (
 				EA947FBC20AD66B1000C350B /* TopViewController.swift in Sources */,
 				EA947FBD20AD66B1000C350B /* OriginalViewController.swift in Sources */,
+				EA947FC220ADC95A000C350B /* FlexibleHeaderViewController.swift in Sources */,
 				EABCC48F20AD5EEC00B05C86 /* Storyboards.swift in Sources */,
+				EA947FC620ADCB6A000C350B /* ContentViewController.swift in Sources */,
 				EADBDBA820AAF987006798E7 /* AppDelegate.swift in Sources */,
+				EA947FCA20ADCE4D000C350B /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

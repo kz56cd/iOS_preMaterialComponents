@@ -17,7 +17,7 @@ enum SandboxType {
         case .original:
             return StoryboardScene.OriginalViewController.initialScene.instantiate()
         case .flexibleHeader:
-            return StoryboardScene.OriginalViewController.initialScene.instantiate() // WIP
+            return StoryboardScene.FlexibleHeaderViewController.initialScene.instantiate()
         }
     }
     
