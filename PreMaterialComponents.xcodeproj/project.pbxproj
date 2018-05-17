@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		94236D8D5DB44E383DC8689C /* Pods_PreMaterialComponentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CAAAAEB1E6C626C28214F7 /* Pods_PreMaterialComponentsTests.framework */; };
 		BCD8BA5DE18A5EE7FBD05DEA /* Pods_PreMaterialComponentsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC4EAC1B594EF9824F0EA6A /* Pods_PreMaterialComponentsUITests.framework */; };
+		EABCC48F20AD5EEC00B05C86 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABCC48E20AD5EEC00B05C86 /* Storyboards.swift */; };
 		EADBDBA820AAF987006798E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBA720AAF987006798E7 /* AppDelegate.swift */; };
 		EADBDBAA20AAF987006798E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBA920AAF987006798E7 /* ViewController.swift */; };
 		EADBDBAD20AAF987006798E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADBDBAB20AAF987006798E7 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		EADBDBB220AAF988006798E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADBDBB020AAF988006798E7 /* LaunchScreen.storyboard */; };
 		EADBDBBD20AAF988006798E7 /* PreMaterialComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBBC20AAF988006798E7 /* PreMaterialComponentsTests.swift */; };
 		EADBDBC820AAF988006798E7 /* PreMaterialComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBC720AAF988006798E7 /* PreMaterialComponentsUITests.swift */; };
+		EADBDC6C20AD5D84006798E7 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDC6B20AD5D84006798E7 /* TopViewController.swift */; };
+		EADBDC6E20AD5DA7006798E7 /* TopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADBDC6D20AD5DA7006798E7 /* TopViewController.storyboard */; };
 		FB8918851049CDFA5D055127 /* Pods_PreMaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +47,7 @@
 		77CAAAAEB1E6C626C28214F7 /* Pods_PreMaterialComponentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreMaterialComponentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE2DD6FD5181BCC391683B6 /* Pods-PreMaterialComponentsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponentsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponentsUITests/Pods-PreMaterialComponentsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C70D600E61A296AC94AF978D /* Pods-PreMaterialComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponents/Pods-PreMaterialComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		EABCC48E20AD5EEC00B05C86 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		EADBDBA420AAF987006798E7 /* PreMaterialComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreMaterialComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADBDBA720AAF987006798E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EADBDBA920AAF987006798E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		EADBDBC320AAF988006798E7 /* PreMaterialComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreMaterialComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADBDBC720AAF988006798E7 /* PreMaterialComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreMaterialComponentsUITests.swift; sourceTree = "<group>"; };
 		EADBDBC920AAF988006798E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADBDC6B20AD5D84006798E7 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		EADBDC6D20AD5DA7006798E7 /* TopViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TopViewController.storyboard; sourceTree = "<group>"; };
 		F43FCA87D5391DBE950E46D7 /* Pods-PreMaterialComponentsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponentsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponentsUITests/Pods-PreMaterialComponentsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreMaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -137,7 +143,10 @@
 		EADBDBA620AAF987006798E7 /* PreMaterialComponents */ = {
 			isa = PBXGroup;
 			children = (
+				EADBDC7020AD5E17006798E7 /* Constants */,
 				EADBDBA720AAF987006798E7 /* AppDelegate.swift */,
+				EADBDC6D20AD5DA7006798E7 /* TopViewController.storyboard */,
+				EADBDC6B20AD5D84006798E7 /* TopViewController.swift */,
 				EADBDBA920AAF987006798E7 /* ViewController.swift */,
 				EADBDBAB20AAF987006798E7 /* Main.storyboard */,
 				EADBDBAE20AAF988006798E7 /* Assets.xcassets */,
@@ -165,6 +174,14 @@
 			path = PreMaterialComponentsUITests;
 			sourceTree = "<group>";
 		};
+		EADBDC7020AD5E17006798E7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EABCC48E20AD5EEC00B05C86 /* Storyboards.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,6 +194,7 @@
 				EADBDBA120AAF987006798E7 /* Frameworks */,
 				EADBDBA220AAF987006798E7 /* Resources */,
 				D401DB3F9C0D28D572DEB361 /* [CP] Embed Pods Frameworks */,
+				EADBDC6F20AD5DE0006798E7 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -274,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EADBDBB220AAF988006798E7 /* LaunchScreen.storyboard in Resources */,
+				EADBDC6E20AD5DA7006798E7 /* TopViewController.storyboard in Resources */,
 				EADBDBAF20AAF988006798E7 /* Assets.xcassets in Resources */,
 				EADBDBAD20AAF987006798E7 /* Main.storyboard in Resources */,
 			);
@@ -378,6 +397,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PreMaterialComponents/Pods-PreMaterialComponents-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EADBDC6F20AD5DE0006798E7 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\nswiftgen storyboards --template swift4 \"$PROJECT_DIR/PreMaterialComponents\" --output \"$PROJECT_DIR/PreMaterialComponents/Constants/Storyboards.swift\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -385,6 +418,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EABCC48F20AD5EEC00B05C86 /* Storyboards.swift in Sources */,
+				EADBDC6C20AD5D84006798E7 /* TopViewController.swift in Sources */,
 				EADBDBAA20AAF987006798E7 /* ViewController.swift in Sources */,
 				EADBDBA820AAF987006798E7 /* AppDelegate.swift in Sources */,
 			);
@@ -563,7 +598,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponents/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -579,7 +617,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponents/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -596,7 +637,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponentsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -614,7 +659,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponentsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -631,7 +680,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponentsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponentsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -648,7 +701,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = PreMaterialComponentsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.PreMaterialComponentsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
