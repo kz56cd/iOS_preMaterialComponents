@@ -11,6 +11,7 @@ import UIKit
 enum SandboxType {
     case original
     case flexibleHeader
+    case buttonEventRx
     
     var viewController: UIViewController {
         switch self {
@@ -18,6 +19,8 @@ enum SandboxType {
             return StoryboardScene.OriginalViewController.initialScene.instantiate()
         case .flexibleHeader:
             return StoryboardScene.FlexibleHeaderViewController.initialScene.instantiate()
+        case .buttonEventRx:
+            return StoryboardScene.ButtonEventRxViewController.initialScene.instantiate()
         }
     }
     
@@ -33,7 +36,8 @@ enum SandboxType {
 final class TopViewController: UIViewController {
     let list: [SandboxType] = [
         .original,
-        .flexibleHeader
+        .flexibleHeader,
+        .buttonEventRx
     ]
 }
 
