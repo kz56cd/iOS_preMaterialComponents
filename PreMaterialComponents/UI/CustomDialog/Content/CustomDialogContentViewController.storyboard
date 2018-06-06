@@ -29,7 +29,21 @@
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fhz-qC-A6a" customClass="MDCAlertControllerView">
                                         <rect key="frame" x="0.0" y="258" width="375" height="142"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="クーポンコードを入力" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0jU-DN-caL" customClass="MDCTextField">
+                                                <rect key="frame" x="38" y="56" width="299" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="0jU-DN-caL" secondAttribute="trailing" constant="38" id="1Vn-xJ-Nh0"/>
+                                            <constraint firstItem="0jU-DN-caL" firstAttribute="leading" secondItem="Fhz-qC-A6a" secondAttribute="leading" constant="38" id="WL0-GH-JRH"/>
+                                            <constraint firstItem="0jU-DN-caL" firstAttribute="centerY" secondItem="Fhz-qC-A6a" secondAttribute="centerY" id="h5m-ZP-tAp"/>
+                                            <constraint firstItem="0jU-DN-caL" firstAttribute="centerX" secondItem="Fhz-qC-A6a" secondAttribute="centerX" id="n9P-RR-kh6"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
