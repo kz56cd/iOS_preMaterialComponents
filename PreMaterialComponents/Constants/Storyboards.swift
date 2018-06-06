@@ -63,6 +63,11 @@ internal enum StoryboardScene {
 
     internal static let initialScene = InitialSceneType<PreMaterialComponents.ContentViewController>(storyboard: ContentViewController.self)
   }
+  internal enum CustomDialogViewController: StoryboardType {
+    internal static let storyboardName = "CustomDialogViewController"
+
+    internal static let initialScene = InitialSceneType<PreMaterialComponents.CustomDialogViewController>(storyboard: CustomDialogViewController.self)
+  }
   internal enum FlexibleHeaderViewController: StoryboardType {
     internal static let storyboardName = "FlexibleHeaderViewController"
 

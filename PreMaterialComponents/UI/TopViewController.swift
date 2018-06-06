@@ -12,6 +12,7 @@ enum SandboxType {
     case original
     case flexibleHeader
     case buttonEventRx
+    case customDialog
     
     var viewController: UIViewController {
         switch self {
@@ -21,6 +22,8 @@ enum SandboxType {
             return StoryboardScene.FlexibleHeaderViewController.initialScene.instantiate()
         case .buttonEventRx:
             return StoryboardScene.ButtonEventRxViewController.initialScene.instantiate()
+        case .customDialog:
+            return StoryboardScene.CustomDialogViewController.initialScene.instantiate()
         }
     }
     
@@ -37,7 +40,8 @@ final class TopViewController: UIViewController {
     let list: [SandboxType] = [
         .original,
         .flexibleHeader,
-        .buttonEventRx
+        .buttonEventRx,
+        .customDialog
     ]
 }
 
