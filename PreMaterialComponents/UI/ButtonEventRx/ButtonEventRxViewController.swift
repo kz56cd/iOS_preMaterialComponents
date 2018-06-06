@@ -28,6 +28,7 @@ extension ButtonEventRxViewController {
             .asDriver()
             .drive(onNext: {
             print("😡😡😡😡 押された")
-        }).disposed(by: disposeBag)
+        })
+        .disposed(by: disposeBag)
     }
 }

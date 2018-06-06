@@ -11,6 +11,8 @@
 		BCD8BA5DE18A5EE7FBD05DEA /* Pods_PreMaterialComponentsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC4EAC1B594EF9824F0EA6A /* Pods_PreMaterialComponentsUITests.framework */; };
 		EA19BF5C20C7C19E00359E03 /* CustomDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF5B20C7C19E00359E03 /* CustomDialogViewController.swift */; };
 		EA19BF5E20C7C1B100359E03 /* CustomDialogViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19BF5D20C7C1B100359E03 /* CustomDialogViewController.storyboard */; };
+		EA19BF6620C7C7D000359E03 /* CustomDialogContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */; };
+		EA19BF6720C7C7D000359E03 /* CustomDialogContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */; };
 		EA947FBB20AD66B1000C350B /* OriginalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA947FB620AD66B0000C350B /* OriginalViewController.storyboard */; };
 		EA947FBC20AD66B1000C350B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FB720AD66B0000C350B /* TopViewController.swift */; };
 		EA947FBD20AD66B1000C350B /* OriginalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FB820AD66B0000C350B /* OriginalViewController.swift */; };
@@ -59,6 +61,8 @@
 		C70D600E61A296AC94AF978D /* Pods-PreMaterialComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponents/Pods-PreMaterialComponents.debug.xcconfig"; sourceTree = "<group>"; };
 		EA19BF5B20C7C19E00359E03 /* CustomDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogViewController.swift; sourceTree = "<group>"; };
 		EA19BF5D20C7C1B100359E03 /* CustomDialogViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomDialogViewController.storyboard; sourceTree = "<group>"; };
+		EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomDialogContentViewController.storyboard; sourceTree = "<group>"; };
+		EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDialogContentViewController.swift; sourceTree = "<group>"; };
 		EA947FB620AD66B0000C350B /* OriginalViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OriginalViewController.storyboard; sourceTree = "<group>"; };
 		EA947FB720AD66B0000C350B /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		EA947FB820AD66B0000C350B /* OriginalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalViewController.swift; sourceTree = "<group>"; };
@@ -143,8 +147,18 @@
 			children = (
 				EA19BF5D20C7C1B100359E03 /* CustomDialogViewController.storyboard */,
 				EA19BF5B20C7C19E00359E03 /* CustomDialogViewController.swift */,
+				EA19BF6320C7C7D000359E03 /* Content */,
 			);
 			path = CustomDialog;
+			sourceTree = "<group>";
+		};
+		EA19BF6320C7C7D000359E03 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */,
+				EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 		EA947FB420AD66B0000C350B /* UI */ = {
@@ -371,6 +385,7 @@
 			files = (
 				EA947FBB20AD66B1000C350B /* OriginalViewController.storyboard in Resources */,
 				EA947FC420ADC987000C350B /* FlexibleHeaderViewController.storyboard in Resources */,
+				EA19BF6620C7C7D000359E03 /* CustomDialogContentViewController.storyboard in Resources */,
 				EADBDBB220AAF988006798E7 /* LaunchScreen.storyboard in Resources */,
 				EADBDBAF20AAF988006798E7 /* Assets.xcassets in Resources */,
 				EA94800920B27E0E000C350B /* ButtonEventRxViewController.storyboard in Resources */,
@@ -512,6 +527,7 @@
 				EABCC48F20AD5EEC00B05C86 /* Storyboards.swift in Sources */,
 				EA947FC620ADCB6A000C350B /* ContentViewController.swift in Sources */,
 				EADBDBA820AAF987006798E7 /* AppDelegate.swift in Sources */,
+				EA19BF6720C7C7D000359E03 /* CustomDialogContentViewController.swift in Sources */,
 				EA19BF5C20C7C19E00359E03 /* CustomDialogViewController.swift in Sources */,
 				EA947FCA20ADCE4D000C350B /* HeaderView.swift in Sources */,
 			);

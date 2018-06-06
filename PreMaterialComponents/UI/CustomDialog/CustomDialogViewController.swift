@@ -13,6 +13,10 @@ import RxCocoa
 
 final class CustomDialogViewController: UIViewController {
     
+    let customDialogTransitionController = MDCDialogTransitionController()
+//    var customDialogContentViewController = StoryboardScene.CustomDialogContentViewController.initialScene.instantiate()
+    var customDialogContentViewController: CustomDialogContentViewController?
+    
     @IBOutlet weak var normalDialogButton: MDCButton!
     @IBOutlet weak var customDialogButton: MDCButton!
     var disposeBag = DisposeBag()
@@ -25,7 +29,7 @@ final class CustomDialogViewController: UIViewController {
 
 extension CustomDialogViewController {
     fileprivate func observeButtonEvent() {
-        func makeNormalDialog() -> MDCAlertController {
+        func makeNormalDialogController() -> MDCAlertController {
             let alertController = MDCAlertController(
                 title: "title",
                 message: "This is MDCAlertController"
@@ -38,16 +42,39 @@ extension CustomDialogViewController {
             return alertController
         }
         
+        func configureCustomDialogController() {
+            customDialogContentViewController = StoryboardScene.CustomDialogContentViewController.initialScene.instantiate()
+            customDialogContentViewController?.modalPresentationStyle = .custom
+            customDialogContentViewController?.transitioningDelegate = customDialogTransitionController
+        }
+        
         normalDialogButton.rx.tap
             .asDriver()
             .drive(onNext: { [weak self] in
                 guard let _self = self else { return }
                 _self.present(
-                    makeNormalDialog(),
+                    makeNormalDialogController(),
                     animated: true,
                     completion: nil
                 )
-            }).disposed(by: disposeBag)
+            })
+            .disposed(by: disposeBag)
+        
+        customDialogButton.rx.tap
+            .asDriver()
+            .drive(onNext: { [weak self] in
+                configureCustomDialogController()
+                guard let _self = self,
+                    let contentController = _self.customDialogContentViewController else {
+                    return
+                }
+                _self.present(
+                    contentController,
+                    animated: true,
+                    completion: nil
+                )
+            })
+            .disposed(by: disposeBag)
     }
 }
 
