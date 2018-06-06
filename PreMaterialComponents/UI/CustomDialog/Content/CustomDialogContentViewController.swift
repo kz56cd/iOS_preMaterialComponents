@@ -7,14 +7,38 @@
 //
 
 import UIKit
+import MaterialComponents
+//import RxSwift
+//import RxCocoa
 
 class CustomDialogContentViewController: UIViewController {
-
+    @IBOutlet weak var alertView: MDCAlertControllerView!
+    @IBOutlet weak var baseViewHeightConstraint: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        // TODO: fix workaround (not good)
+        view.bounds.size = CGSize(width: 300, height: baseViewHeightConstraint.constant)
     }
 }
+
+//extension CustomDialogContentViewController: UIViewControllerTransitioningDelegate {}
+
+//extension CustomDialogContentViewController: UIViewControllerAnimatedTransitioning {
+//    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+//        return 0.5
+//    }
+//
+//    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+//
+//    }
+//}

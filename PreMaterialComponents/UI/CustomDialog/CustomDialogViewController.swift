@@ -14,7 +14,6 @@ import RxCocoa
 final class CustomDialogViewController: UIViewController {
     
     let customDialogTransitionController = MDCDialogTransitionController()
-//    var customDialogContentViewController = StoryboardScene.CustomDialogContentViewController.initialScene.instantiate()
     var customDialogContentViewController: CustomDialogContentViewController?
     
     @IBOutlet weak var normalDialogButton: MDCButton!
@@ -45,7 +44,16 @@ extension CustomDialogViewController {
         func configureCustomDialogController() {
             customDialogContentViewController = StoryboardScene.CustomDialogContentViewController.initialScene.instantiate()
             customDialogContentViewController?.modalPresentationStyle = .custom
+            customDialogContentViewController?.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+
+//            customDialogContentViewController?.modalPresentationStyle = .popover
             customDialogContentViewController?.transitioningDelegate = customDialogTransitionController
+//            customDialogContentViewController?.alertView
+        
+            
+//            print(customDialogContentViewController?.view.frame)
+//            customDialogContentViewController?.view.frame.size = CGSize(width: 300, height: 100)
+//            print(customDialogContentViewController?.view.frame)
         }
         
         normalDialogButton.rx.tap
@@ -68,6 +76,9 @@ extension CustomDialogViewController {
                     let contentController = _self.customDialogContentViewController else {
                     return
                 }
+//                customDialogTransitionController
+
+//                contentController.view.frame.size = CGSize(width: 300, height: 100)
                 _self.present(
                     contentController,
                     animated: true,

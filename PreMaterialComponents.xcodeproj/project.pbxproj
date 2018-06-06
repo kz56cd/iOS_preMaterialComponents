@@ -13,6 +13,7 @@
 		EA19BF5E20C7C1B100359E03 /* CustomDialogViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19BF5D20C7C1B100359E03 /* CustomDialogViewController.storyboard */; };
 		EA19BF6620C7C7D000359E03 /* CustomDialogContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */; };
 		EA19BF6720C7C7D000359E03 /* CustomDialogContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */; };
+		EA19BF6920C7D67D00359E03 /* CustomDialogTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF6820C7D67D00359E03 /* CustomDialogTransitionViewController.swift */; };
 		EA947FBB20AD66B1000C350B /* OriginalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA947FB620AD66B0000C350B /* OriginalViewController.storyboard */; };
 		EA947FBC20AD66B1000C350B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FB720AD66B0000C350B /* TopViewController.swift */; };
 		EA947FBD20AD66B1000C350B /* OriginalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FB820AD66B0000C350B /* OriginalViewController.swift */; };
@@ -63,6 +64,7 @@
 		EA19BF5D20C7C1B100359E03 /* CustomDialogViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomDialogViewController.storyboard; sourceTree = "<group>"; };
 		EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomDialogContentViewController.storyboard; sourceTree = "<group>"; };
 		EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDialogContentViewController.swift; sourceTree = "<group>"; };
+		EA19BF6820C7D67D00359E03 /* CustomDialogTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogTransitionViewController.swift; sourceTree = "<group>"; };
 		EA947FB620AD66B0000C350B /* OriginalViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OriginalViewController.storyboard; sourceTree = "<group>"; };
 		EA947FB720AD66B0000C350B /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		EA947FB820AD66B0000C350B /* OriginalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */,
 				EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */,
+				EA19BF6820C7D67D00359E03 /* CustomDialogTransitionViewController.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 			files = (
 				EA947FBC20AD66B1000C350B /* TopViewController.swift in Sources */,
 				EA94800720B27DDC000C350B /* ButtonEventRxViewController.swift in Sources */,
+				EA19BF6920C7D67D00359E03 /* CustomDialogTransitionViewController.swift in Sources */,
 				EA947FBD20AD66B1000C350B /* OriginalViewController.swift in Sources */,
 				EA947FC220ADC95A000C350B /* FlexibleHeaderViewController.swift in Sources */,
 				EABCC48F20AD5EEC00B05C86 /* Storyboards.swift in Sources */,
