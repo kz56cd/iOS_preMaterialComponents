@@ -53,7 +53,7 @@ extension CustomDialogViewController {
             handmadeDialogViewController = StoryboardScene.HandMadeDialogViewController.initialScene.instantiate()
             handmadeDialogViewController?.modalPresentationStyle = .custom
             handmadeDialogViewController?.modalTransitionStyle = .crossDissolve
-            handmadeDialogViewController?.transitioningDelegate = customDialogTransitionController
+            handmadeDialogViewController?.isDismissWhenScreenTapped = true
         }
         
         normalDialogButton.rx.tap
