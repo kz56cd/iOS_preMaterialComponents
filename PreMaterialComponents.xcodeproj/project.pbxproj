@@ -36,6 +36,7 @@
 		EADBDBB220AAF988006798E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADBDBB020AAF988006798E7 /* LaunchScreen.storyboard */; };
 		EADBDBBD20AAF988006798E7 /* PreMaterialComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBBC20AAF988006798E7 /* PreMaterialComponentsTests.swift */; };
 		EADBDBC820AAF988006798E7 /* PreMaterialComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBC720AAF988006798E7 /* PreMaterialComponentsUITests.swift */; };
+		EAED955D20C9095A00749D1D /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAED955C20C9095A00749D1D /* Prelude.framework */; };
 		FB8918851049CDFA5D055127 /* Pods_PreMaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +98,7 @@
 		EADBDBC320AAF988006798E7 /* PreMaterialComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreMaterialComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADBDBC720AAF988006798E7 /* PreMaterialComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreMaterialComponentsUITests.swift; sourceTree = "<group>"; };
 		EADBDBC920AAF988006798E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAED955C20C9095A00749D1D /* Prelude.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Prelude.framework; path = Carthage/Build/iOS/Prelude.framework; sourceTree = "<group>"; };
 		F43FCA87D5391DBE950E46D7 /* Pods-PreMaterialComponentsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponentsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponentsUITests/Pods-PreMaterialComponentsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreMaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAED955D20C9095A00749D1D /* Prelude.framework in Frameworks */,
 				FB8918851049CDFA5D055127 /* Pods_PreMaterialComponents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +148,7 @@
 		BD42F04EFE8BA8AFED609F8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAED955C20C9095A00749D1D /* Prelude.framework */,
 				FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */,
 				77CAAAAEB1E6C626C28214F7 /* Pods_PreMaterialComponentsTests.framework */,
 				5AC4EAC1B594EF9824F0EA6A /* Pods_PreMaterialComponentsUITests.framework */,
@@ -179,6 +183,7 @@
 			children = (
 				EA19BF7220C8FB3200359E03 /* HandMadeDialogViewController.storyboard */,
 				EA19BF7120C8FB3200359E03 /* HandMadeDialogViewController.swift */,
+				EAED955F20C90B0E00749D1D /* view */,
 			);
 			path = Handmade;
 			sourceTree = "<group>";
@@ -194,9 +199,9 @@
 		EA947FB420AD66B0000C350B /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				EA19BF7520C8FFDF00359E03 /* ViewParts */,
 				EA947FB920AD66B0000C350B /* TopViewController.storyboard */,
 				EA947FB720AD66B0000C350B /* TopViewController.swift */,
+				EA19BF7520C8FFDF00359E03 /* ViewParts */,
 				EA947FC020ADB9B7000C350B /* Original */,
 				EA947FBF20ADB9B7000C350B /* FlexibleHeader */,
 				EA94800520B27DAD000C350B /* ButtonEventRx */,
@@ -305,6 +310,13 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		EAED955F20C90B0E00749D1D /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -318,6 +330,7 @@
 				EADBDBA220AAF987006798E7 /* Resources */,
 				D401DB3F9C0D28D572DEB361 /* [CP] Embed Pods Frameworks */,
 				EADBDC6F20AD5DE0006798E7 /* SwiftGen */,
+				EAED955E20C9096B00749D1D /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -545,6 +558,21 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftgen >/dev/null; then\nswiftgen storyboards --template swift4 \"$PROJECT_DIR/PreMaterialComponents\" --output \"$PROJECT_DIR/PreMaterialComponents/Constants/Storyboards.swift\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi";
 		};
+		EAED955E20C9096B00749D1D /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Prelude.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -733,6 +761,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PreMaterialComponents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -752,6 +784,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PreMaterialComponents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

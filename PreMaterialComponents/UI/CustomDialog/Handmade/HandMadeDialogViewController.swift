@@ -31,7 +31,7 @@ final class HandMadeDialogViewController: UIViewController {
 
 extension HandMadeDialogViewController {
     fileprivate func prepareView() {
-        modalPresentationStyle = .custom
+        // stub
     }
 }
 

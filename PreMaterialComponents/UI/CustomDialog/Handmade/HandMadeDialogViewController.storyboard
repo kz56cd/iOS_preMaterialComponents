@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZaT-Hj-VAy" userLabel="ShadowView" customClass="InspectableView" customModule="PreMaterialComponents" customModuleProvider="target">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <rect key="frame" x="47" y="183" width="280" height="300"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
@@ -37,11 +37,11 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6v9-43-KBw">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <rect key="frame" x="47" y="183" width="280" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="8vD-Pm-ee1"/>
-                                    <constraint firstAttribute="width" constant="240" id="djb-SJ-Eqs"/>
+                                    <constraint firstAttribute="height" constant="300" id="8vD-Pm-ee1"/>
+                                    <constraint firstAttribute="width" constant="280" id="djb-SJ-Eqs"/>
                                 </constraints>
                             </view>
                         </subviews>

@@ -10,6 +10,7 @@ import UIKit
 import MaterialComponents
 import RxSwift
 import RxCocoa
+import Prelude
 
 final class CustomDialogViewController: UIViewController {
     
