@@ -15,7 +15,9 @@ final class CustomDialogViewController: UIViewController {
     
     let customDialogTransitionController = MDCDialogTransitionController()
     var customDialogContentViewController: CustomDialogContentViewController?
+    var handmadeDialogViewController: HandMadeDialogViewController?
     
+    @IBOutlet weak var handmadeDialogButton: MDCButton!
     @IBOutlet weak var normalDialogButton: MDCButton!
     @IBOutlet weak var customDialogButton: MDCButton!
     var disposeBag = DisposeBag()
@@ -44,16 +46,14 @@ extension CustomDialogViewController {
         func configureCustomDialogController() {
             customDialogContentViewController = StoryboardScene.CustomDialogContentViewController.initialScene.instantiate()
             customDialogContentViewController?.modalPresentationStyle = .custom
-            customDialogContentViewController?.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
-
-//            customDialogContentViewController?.modalPresentationStyle = .popover
             customDialogContentViewController?.transitioningDelegate = customDialogTransitionController
-//            customDialogContentViewController?.alertView
+        }
         
-            
-//            print(customDialogContentViewController?.view.frame)
-//            customDialogContentViewController?.view.frame.size = CGSize(width: 300, height: 100)
-//            print(customDialogContentViewController?.view.frame)
+        func configureHandmadeDialogController() {
+            handmadeDialogViewController = StoryboardScene.HandMadeDialogViewController.initialScene.instantiate()
+            handmadeDialogViewController?.modalPresentationStyle = .custom
+            handmadeDialogViewController?.modalTransitionStyle = .crossDissolve
+            handmadeDialogViewController?.transitioningDelegate = customDialogTransitionController
         }
         
         normalDialogButton.rx.tap
@@ -76,9 +76,6 @@ extension CustomDialogViewController {
                     let contentController = _self.customDialogContentViewController else {
                     return
                 }
-//                customDialogTransitionController
-
-//                contentController.view.frame.size = CGSize(width: 300, height: 100)
                 _self.present(
                     contentController,
                     animated: true,
@@ -86,6 +83,28 @@ extension CustomDialogViewController {
                 )
             })
             .disposed(by: disposeBag)
+        
+        handmadeDialogButton.rx.tap
+            .asDriver()
+            .drive(onNext: { [weak self] in
+                configureHandmadeDialogController()
+                guard let _self = self,
+                    let viewController = _self.handmadeDialogViewController else {
+                    return
+                }
+                _self.present(
+                    viewController,
+                    animated: true,
+                    completion: nil
+                )
+            })
+            .disposed(by: disposeBag)
+    }
+}
+
+extension CustomDialogViewController: UIViewControllerTransitioningDelegate {
+    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+        return CustomPresentationController(presentedViewController: presented, presenting: presenting)
     }
 }
 

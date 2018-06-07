@@ -78,6 +78,11 @@ internal enum StoryboardScene {
 
     internal static let initialScene = InitialSceneType<PreMaterialComponents.FlexibleHeaderViewController>(storyboard: FlexibleHeaderViewController.self)
   }
+  internal enum HandMadeDialogViewController: StoryboardType {
+    internal static let storyboardName = "HandMadeDialogViewController"
+
+    internal static let initialScene = InitialSceneType<PreMaterialComponents.HandMadeDialogViewController>(storyboard: HandMadeDialogViewController.self)
+  }
   internal enum LaunchScreen: StoryboardType {
     internal static let storyboardName = "LaunchScreen"
 

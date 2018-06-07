@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0t6-WG-gUo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hand Made Dialog View Controller-->
+        <scene sceneID="ZKA-X1-Yq2">
+            <objects>
+                <viewController modalPresentationStyle="overCurrentContext" id="0t6-WG-gUo" customClass="HandMadeDialogViewController" customModule="PreMaterialComponents" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" tag="1" contentMode="scaleToFill" id="30T-FU-uos">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZaT-Hj-VAy" userLabel="ShadowView" customClass="InspectableView" customModule="PreMaterialComponents" customModuleProvider="target">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6v9-43-KBw">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="8vD-Pm-ee1"/>
+                                    <constraint firstAttribute="width" constant="240" id="djb-SJ-Eqs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6v9-43-KBw" firstAttribute="centerX" secondItem="30T-FU-uos" secondAttribute="centerX" id="DNc-gB-jMZ"/>
+                            <constraint firstItem="ZaT-Hj-VAy" firstAttribute="centerX" secondItem="30T-FU-uos" secondAttribute="centerX" id="E0R-zH-GhJ"/>
+                            <constraint firstItem="6v9-43-KBw" firstAttribute="height" secondItem="ZaT-Hj-VAy" secondAttribute="height" id="V53-Gd-gK8"/>
+                            <constraint firstItem="ZaT-Hj-VAy" firstAttribute="centerY" secondItem="30T-FU-uos" secondAttribute="centerY" id="bi5-SS-XdM"/>
+                            <constraint firstItem="6v9-43-KBw" firstAttribute="width" secondItem="ZaT-Hj-VAy" secondAttribute="width" id="cuv-Ra-kvw"/>
+                            <constraint firstItem="6v9-43-KBw" firstAttribute="centerY" secondItem="30T-FU-uos" secondAttribute="centerY" id="veX-ee-fbs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dEI-xe-fc6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FzZ-NO-J7c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="204" y="-118"/>
+        </scene>
+    </scenes>
+</document>

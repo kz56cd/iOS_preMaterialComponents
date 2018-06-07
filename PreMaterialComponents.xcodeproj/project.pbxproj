@@ -14,6 +14,10 @@
 		EA19BF6620C7C7D000359E03 /* CustomDialogContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */; };
 		EA19BF6720C7C7D000359E03 /* CustomDialogContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */; };
 		EA19BF6920C7D67D00359E03 /* CustomDialogTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF6820C7D67D00359E03 /* CustomDialogTransitionViewController.swift */; };
+		EA19BF6B20C8A54D00359E03 /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF6A20C8A54D00359E03 /* CustomPresentationController.swift */; };
+		EA19BF7320C8FB3200359E03 /* HandMadeDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF7120C8FB3200359E03 /* HandMadeDialogViewController.swift */; };
+		EA19BF7420C8FB3200359E03 /* HandMadeDialogViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19BF7220C8FB3200359E03 /* HandMadeDialogViewController.storyboard */; };
+		EA19BF7720C8FFEE00359E03 /* InspectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF7620C8FFEE00359E03 /* InspectableView.swift */; };
 		EA947FBB20AD66B1000C350B /* OriginalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA947FB620AD66B0000C350B /* OriginalViewController.storyboard */; };
 		EA947FBC20AD66B1000C350B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FB720AD66B0000C350B /* TopViewController.swift */; };
 		EA947FBD20AD66B1000C350B /* OriginalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FB820AD66B0000C350B /* OriginalViewController.swift */; };
@@ -65,6 +69,10 @@
 		EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomDialogContentViewController.storyboard; sourceTree = "<group>"; };
 		EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDialogContentViewController.swift; sourceTree = "<group>"; };
 		EA19BF6820C7D67D00359E03 /* CustomDialogTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogTransitionViewController.swift; sourceTree = "<group>"; };
+		EA19BF6A20C8A54D00359E03 /* CustomPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
+		EA19BF7120C8FB3200359E03 /* HandMadeDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandMadeDialogViewController.swift; sourceTree = "<group>"; };
+		EA19BF7220C8FB3200359E03 /* HandMadeDialogViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HandMadeDialogViewController.storyboard; sourceTree = "<group>"; };
+		EA19BF7620C8FFEE00359E03 /* InspectableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectableView.swift; sourceTree = "<group>"; };
 		EA947FB620AD66B0000C350B /* OriginalViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OriginalViewController.storyboard; sourceTree = "<group>"; };
 		EA947FB720AD66B0000C350B /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		EA947FB820AD66B0000C350B /* OriginalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +158,7 @@
 				EA19BF5D20C7C1B100359E03 /* CustomDialogViewController.storyboard */,
 				EA19BF5B20C7C19E00359E03 /* CustomDialogViewController.swift */,
 				EA19BF6320C7C7D000359E03 /* Content */,
+				EA19BF7020C8FB3200359E03 /* Handmade */,
 			);
 			path = CustomDialog;
 			sourceTree = "<group>";
@@ -160,13 +169,32 @@
 				EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */,
 				EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */,
 				EA19BF6820C7D67D00359E03 /* CustomDialogTransitionViewController.swift */,
+				EA19BF6A20C8A54D00359E03 /* CustomPresentationController.swift */,
 			);
 			path = Content;
+			sourceTree = "<group>";
+		};
+		EA19BF7020C8FB3200359E03 /* Handmade */ = {
+			isa = PBXGroup;
+			children = (
+				EA19BF7220C8FB3200359E03 /* HandMadeDialogViewController.storyboard */,
+				EA19BF7120C8FB3200359E03 /* HandMadeDialogViewController.swift */,
+			);
+			path = Handmade;
+			sourceTree = "<group>";
+		};
+		EA19BF7520C8FFDF00359E03 /* ViewParts */ = {
+			isa = PBXGroup;
+			children = (
+				EA19BF7620C8FFEE00359E03 /* InspectableView.swift */,
+			);
+			path = ViewParts;
 			sourceTree = "<group>";
 		};
 		EA947FB420AD66B0000C350B /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				EA19BF7520C8FFDF00359E03 /* ViewParts */,
 				EA947FB920AD66B0000C350B /* TopViewController.storyboard */,
 				EA947FB720AD66B0000C350B /* TopViewController.swift */,
 				EA947FC020ADB9B7000C350B /* Original */,
@@ -396,6 +424,7 @@
 				EA947FBE20AD66B1000C350B /* TopViewController.storyboard in Resources */,
 				EA947FCC20ADCE57000C350B /* HeaderView.xib in Resources */,
 				EA19BF5E20C7C1B100359E03 /* CustomDialogViewController.storyboard in Resources */,
+				EA19BF7420C8FB3200359E03 /* HandMadeDialogViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,15 +554,18 @@
 			files = (
 				EA947FBC20AD66B1000C350B /* TopViewController.swift in Sources */,
 				EA94800720B27DDC000C350B /* ButtonEventRxViewController.swift in Sources */,
+				EA19BF7320C8FB3200359E03 /* HandMadeDialogViewController.swift in Sources */,
 				EA19BF6920C7D67D00359E03 /* CustomDialogTransitionViewController.swift in Sources */,
 				EA947FBD20AD66B1000C350B /* OriginalViewController.swift in Sources */,
 				EA947FC220ADC95A000C350B /* FlexibleHeaderViewController.swift in Sources */,
 				EABCC48F20AD5EEC00B05C86 /* Storyboards.swift in Sources */,
 				EA947FC620ADCB6A000C350B /* ContentViewController.swift in Sources */,
 				EADBDBA820AAF987006798E7 /* AppDelegate.swift in Sources */,
+				EA19BF7720C8FFEE00359E03 /* InspectableView.swift in Sources */,
 				EA19BF6720C7C7D000359E03 /* CustomDialogContentViewController.swift in Sources */,
 				EA19BF5C20C7C19E00359E03 /* CustomDialogViewController.swift in Sources */,
 				EA947FCA20ADCE4D000C350B /* HeaderView.swift in Sources */,
+				EA19BF6B20C8A54D00359E03 /* CustomPresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,11 +27,18 @@ class CustomDialogContentViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         // TODO: fix workaround (not good)
-        view.bounds.size = CGSize(width: 300, height: baseViewHeightConstraint.constant)
+//        view.bounds.size = CGSize(width: 300, height: baseViewHeightConstraint.constant)
     }
+    
 }
 
-//extension CustomDialogContentViewController: UIViewControllerTransitioningDelegate {}
+extension CustomDialogContentViewController: UIViewControllerTransitioningDelegate {
+    
+//    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+//
+//
+//    }
+}
 
 //extension CustomDialogContentViewController: UIViewControllerAnimatedTransitioning {
 //    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {

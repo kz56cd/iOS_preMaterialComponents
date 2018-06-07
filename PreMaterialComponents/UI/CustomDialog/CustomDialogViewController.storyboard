@@ -21,14 +21,21 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiu-Re-trx" customClass="MDCButton">
                                 <rect key="frame" x="30" y="205" width="315" height="30"/>
                                 <color key="backgroundColor" red="0.66359975999398879" green="0.74472557106598991" blue="0.64627748642211436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="dialog (normal)">
+                                <state key="normal" title="dialog (normal: Material)">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2j-QZ-dvK" customClass="MDCButton">
                                 <rect key="frame" x="29.5" y="285" width="315" height="30"/>
                                 <color key="backgroundColor" red="0.66359975999398879" green="0.74472557106598991" blue="0.64627748642211436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="dialog (custom)">
+                                <state key="normal" title="dialog (custom: Material)">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fE-mI-t2J" customClass="MDCButton">
+                                <rect key="frame" x="30" y="365" width="315" height="30"/>
+                                <color key="backgroundColor" red="0.66359975999999998" green="0.74472557110000004" blue="0.64627748640000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="dialog (custom: Handmade)">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
@@ -36,17 +43,21 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="O2j-QZ-dvK" firstAttribute="width" secondItem="kiu-Re-trx" secondAttribute="width" id="5Kj-Lu-nqG"/>
+                            <constraint firstItem="4fE-mI-t2J" firstAttribute="top" secondItem="O2j-QZ-dvK" secondAttribute="bottom" constant="50" id="OPg-LW-NVL"/>
                             <constraint firstItem="kiu-Re-trx" firstAttribute="centerX" secondItem="JJo-z4-JMG" secondAttribute="centerX" id="P64-kz-YZ3"/>
                             <constraint firstItem="fTi-3Y-ag7" firstAttribute="trailing" secondItem="kiu-Re-trx" secondAttribute="trailing" constant="30" id="Uip-9g-HF9"/>
                             <constraint firstItem="kiu-Re-trx" firstAttribute="leading" secondItem="fTi-3Y-ag7" secondAttribute="leading" constant="30" id="iej-v1-1WI"/>
                             <constraint firstItem="kiu-Re-trx" firstAttribute="top" secondItem="fTi-3Y-ag7" secondAttribute="top" constant="185" id="osE-aa-mmL"/>
+                            <constraint firstItem="4fE-mI-t2J" firstAttribute="centerX" secondItem="JJo-z4-JMG" secondAttribute="centerX" id="q0t-Te-Ux7"/>
                             <constraint firstItem="O2j-QZ-dvK" firstAttribute="top" secondItem="kiu-Re-trx" secondAttribute="bottom" constant="50" id="sFx-Fw-375"/>
                             <constraint firstItem="O2j-QZ-dvK" firstAttribute="centerX" secondItem="JJo-z4-JMG" secondAttribute="centerX" id="sNx-FU-bH8"/>
+                            <constraint firstItem="4fE-mI-t2J" firstAttribute="width" secondItem="O2j-QZ-dvK" secondAttribute="width" id="uFb-zv-hSl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fTi-3Y-ag7"/>
                     </view>
                     <connections>
                         <outlet property="customDialogButton" destination="O2j-QZ-dvK" id="Cco-ts-N4a"/>
+                        <outlet property="handmadeDialogButton" destination="4fE-mI-t2J" id="h7r-Hr-i02"/>
                         <outlet property="normalDialogButton" destination="kiu-Re-trx" id="KlW-lr-70N"/>
                     </connections>
                 </viewController>
