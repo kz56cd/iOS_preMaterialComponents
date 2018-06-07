@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZaT-Hj-VAy" userLabel="ShadowView" customClass="InspectableView" customModule="PreMaterialComponents" customModuleProvider="target">
-                                <rect key="frame" x="47" y="183" width="280" height="300"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZaT-Hj-VAy" userLabel="ShadowView" customClass="InspectableView" customModule="PreMaterialComponents" customModuleProvider="target">
+                                <rect key="frame" x="22" y="223" width="330" height="220"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
@@ -36,12 +36,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6v9-43-KBw">
-                                <rect key="frame" x="47" y="183" width="280" height="300"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6v9-43-KBw" customClass="HandMadeContentView" customModule="PreMaterialComponents" customModuleProvider="target">
+                                <rect key="frame" x="22" y="223" width="330" height="220"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="8vD-Pm-ee1"/>
-                                    <constraint firstAttribute="width" constant="280" id="djb-SJ-Eqs"/>
+                                    <constraint firstAttribute="height" constant="220" id="8vD-Pm-ee1"/>
+                                    <constraint firstAttribute="width" constant="330" id="djb-SJ-Eqs"/>
                                 </constraints>
                             </view>
                         </subviews>

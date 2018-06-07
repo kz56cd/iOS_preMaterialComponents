@@ -37,6 +37,8 @@
 		EADBDBBD20AAF988006798E7 /* PreMaterialComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBBC20AAF988006798E7 /* PreMaterialComponentsTests.swift */; };
 		EADBDBC820AAF988006798E7 /* PreMaterialComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBC720AAF988006798E7 /* PreMaterialComponentsUITests.swift */; };
 		EAED955D20C9095A00749D1D /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAED955C20C9095A00749D1D /* Prelude.framework */; };
+		EAED956320C90E0400749D1D /* HandMadeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAED956220C90E0400749D1D /* HandMadeContentView.swift */; };
+		EAED956520C90E0D00749D1D /* HandMadeContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAED956420C90E0D00749D1D /* HandMadeContentView.xib */; };
 		FB8918851049CDFA5D055127 /* Pods_PreMaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +101,8 @@
 		EADBDBC720AAF988006798E7 /* PreMaterialComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreMaterialComponentsUITests.swift; sourceTree = "<group>"; };
 		EADBDBC920AAF988006798E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAED955C20C9095A00749D1D /* Prelude.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Prelude.framework; path = Carthage/Build/iOS/Prelude.framework; sourceTree = "<group>"; };
+		EAED956220C90E0400749D1D /* HandMadeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandMadeContentView.swift; sourceTree = "<group>"; };
+		EAED956420C90E0D00749D1D /* HandMadeContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HandMadeContentView.xib; sourceTree = "<group>"; };
 		F43FCA87D5391DBE950E46D7 /* Pods-PreMaterialComponentsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponentsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponentsUITests/Pods-PreMaterialComponentsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreMaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -313,6 +317,8 @@
 		EAED955F20C90B0E00749D1D /* view */ = {
 			isa = PBXGroup;
 			children = (
+				EAED956420C90E0D00749D1D /* HandMadeContentView.xib */,
+				EAED956220C90E0400749D1D /* HandMadeContentView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -431,6 +437,7 @@
 				EA947FC420ADC987000C350B /* FlexibleHeaderViewController.storyboard in Resources */,
 				EA19BF6620C7C7D000359E03 /* CustomDialogContentViewController.storyboard in Resources */,
 				EADBDBB220AAF988006798E7 /* LaunchScreen.storyboard in Resources */,
+				EAED956520C90E0D00749D1D /* HandMadeContentView.xib in Resources */,
 				EADBDBAF20AAF988006798E7 /* Assets.xcassets in Resources */,
 				EA94800920B27E0E000C350B /* ButtonEventRxViewController.storyboard in Resources */,
 				EA947FC820ADCB75000C350B /* ContentViewController.storyboard in Resources */,
@@ -580,6 +587,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAED956320C90E0400749D1D /* HandMadeContentView.swift in Sources */,
 				EA947FBC20AD66B1000C350B /* TopViewController.swift in Sources */,
 				EA94800720B27DDC000C350B /* ButtonEventRxViewController.swift in Sources */,
 				EA19BF7320C8FB3200359E03 /* HandMadeDialogViewController.swift in Sources */,
