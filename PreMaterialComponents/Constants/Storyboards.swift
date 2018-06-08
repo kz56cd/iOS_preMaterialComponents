@@ -53,15 +53,35 @@ internal extension UIViewController {
 
 // swiftlint:disable explicit_type_interface identifier_name line_length type_body_length type_name
 internal enum StoryboardScene {
+  internal enum ButtonEventRxViewController: StoryboardType {
+    internal static let storyboardName = "ButtonEventRxViewController"
+
+    internal static let initialScene = InitialSceneType<PreMaterialComponents.ButtonEventRxViewController>(storyboard: ButtonEventRxViewController.self)
+  }
   internal enum ContentViewController: StoryboardType {
     internal static let storyboardName = "ContentViewController"
 
     internal static let initialScene = InitialSceneType<PreMaterialComponents.ContentViewController>(storyboard: ContentViewController.self)
   }
+  internal enum CustomDialogContentViewController: StoryboardType {
+    internal static let storyboardName = "CustomDialogContentViewController"
+
+    internal static let initialScene = InitialSceneType<PreMaterialComponents.CustomDialogContentViewController>(storyboard: CustomDialogContentViewController.self)
+  }
+  internal enum CustomDialogViewController: StoryboardType {
+    internal static let storyboardName = "CustomDialogViewController"
+
+    internal static let initialScene = InitialSceneType<PreMaterialComponents.CustomDialogViewController>(storyboard: CustomDialogViewController.self)
+  }
   internal enum FlexibleHeaderViewController: StoryboardType {
     internal static let storyboardName = "FlexibleHeaderViewController"
 
     internal static let initialScene = InitialSceneType<PreMaterialComponents.FlexibleHeaderViewController>(storyboard: FlexibleHeaderViewController.self)
+  }
+  internal enum HandMadeDialogViewController: StoryboardType {
+    internal static let storyboardName = "HandMadeDialogViewController"
+
+    internal static let initialScene = InitialSceneType<PreMaterialComponents.HandMadeDialogViewController>(storyboard: HandMadeDialogViewController.self)
   }
   internal enum LaunchScreen: StoryboardType {
     internal static let storyboardName = "LaunchScreen"

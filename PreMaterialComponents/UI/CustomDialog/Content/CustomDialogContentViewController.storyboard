@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3jU-Vi-f4g">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Dialog Content View Controller-->
+        <scene sceneID="XvZ-1p-hKW">
+            <objects>
+                <viewController id="3jU-Vi-f4g" customClass="CustomDialogContentViewController" customModule="PreMaterialComponents" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Md-dJ-Imc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KBG-V3-6A4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample_01" translatesAutoresizingMaskIntoConstraints="NO" id="ki9-yl-ad2">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="wcq-bS-kFK"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fhz-qC-A6a" customClass="MDCAlertControllerView">
+                                        <rect key="frame" x="0.0" y="258" width="375" height="142"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="クーポンコードを入力" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0jU-DN-caL" customClass="MDCTextField">
+                                                <rect key="frame" x="38" y="56" width="299" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="0jU-DN-caL" secondAttribute="trailing" constant="38" id="1Vn-xJ-Nh0"/>
+                                            <constraint firstItem="0jU-DN-caL" firstAttribute="leading" secondItem="Fhz-qC-A6a" secondAttribute="leading" constant="38" id="WL0-GH-JRH"/>
+                                            <constraint firstItem="0jU-DN-caL" firstAttribute="centerY" secondItem="Fhz-qC-A6a" secondAttribute="centerY" id="h5m-ZP-tAp"/>
+                                            <constraint firstItem="0jU-DN-caL" firstAttribute="centerX" secondItem="Fhz-qC-A6a" secondAttribute="centerX" id="n9P-RR-kh6"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ki9-yl-ad2" secondAttribute="trailing" id="5oT-KT-CN9"/>
+                                    <constraint firstItem="ki9-yl-ad2" firstAttribute="leading" secondItem="KBG-V3-6A4" secondAttribute="leading" id="FFy-5f-fTO"/>
+                                    <constraint firstItem="Fhz-qC-A6a" firstAttribute="top" secondItem="ki9-yl-ad2" secondAttribute="bottom" constant="8" id="SbD-DT-NmW"/>
+                                    <constraint firstItem="Fhz-qC-A6a" firstAttribute="leading" secondItem="KBG-V3-6A4" secondAttribute="leading" id="Yuh-FA-gc1"/>
+                                    <constraint firstAttribute="height" constant="400" id="bGf-Zj-U1Q"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fhz-qC-A6a" secondAttribute="trailing" id="m9l-mV-k7M"/>
+                                    <constraint firstAttribute="bottom" secondItem="Fhz-qC-A6a" secondAttribute="bottom" id="nNM-Vc-LQD"/>
+                                    <constraint firstItem="ki9-yl-ad2" firstAttribute="top" secondItem="KBG-V3-6A4" secondAttribute="top" id="phL-4R-Lhr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93419442943451969" green="0.90102539492691369" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VM8-He-rSa" firstAttribute="trailing" secondItem="KBG-V3-6A4" secondAttribute="trailing" id="523-tj-sIZ"/>
+                            <constraint firstItem="KBG-V3-6A4" firstAttribute="top" secondItem="VM8-He-rSa" secondAttribute="top" id="jmU-9k-eeU"/>
+                            <constraint firstItem="VM8-He-rSa" firstAttribute="bottom" secondItem="KBG-V3-6A4" secondAttribute="bottom" id="rZo-Zf-AE9"/>
+                            <constraint firstItem="KBG-V3-6A4" firstAttribute="leading" secondItem="VM8-He-rSa" secondAttribute="leading" id="z7W-Qp-1T9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VM8-He-rSa"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="400"/>
+                    <connections>
+                        <outlet property="alertView" destination="Fhz-qC-A6a" id="7GV-OA-bha"/>
+                        <outlet property="baseViewHeightConstraint" destination="bGf-Zj-U1Q" id="BHW-rx-f9r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kxO-GJ-Gkw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44" y="170.91454272863569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sample_01" width="315" height="445"/>
+    </resources>
+</document>

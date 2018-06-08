@@ -6,6 +6,8 @@ target 'PreMaterialComponents' do
   use_frameworks!
 
   pod 'MaterialComponents'
+  pod 'RxSwift'
+  pod 'RxCocoa'
 
   target 'PreMaterialComponentsTests' do
     inherit! :search_paths

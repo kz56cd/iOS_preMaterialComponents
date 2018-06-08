@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		94236D8D5DB44E383DC8689C /* Pods_PreMaterialComponentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CAAAAEB1E6C626C28214F7 /* Pods_PreMaterialComponentsTests.framework */; };
 		BCD8BA5DE18A5EE7FBD05DEA /* Pods_PreMaterialComponentsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC4EAC1B594EF9824F0EA6A /* Pods_PreMaterialComponentsUITests.framework */; };
+		EA19BF5C20C7C19E00359E03 /* CustomDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF5B20C7C19E00359E03 /* CustomDialogViewController.swift */; };
+		EA19BF5E20C7C1B100359E03 /* CustomDialogViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19BF5D20C7C1B100359E03 /* CustomDialogViewController.storyboard */; };
+		EA19BF6620C7C7D000359E03 /* CustomDialogContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */; };
+		EA19BF6720C7C7D000359E03 /* CustomDialogContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */; };
+		EA19BF6920C7D67D00359E03 /* CustomDialogTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF6820C7D67D00359E03 /* CustomDialogTransitionViewController.swift */; };
+		EA19BF6B20C8A54D00359E03 /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF6A20C8A54D00359E03 /* CustomPresentationController.swift */; };
+		EA19BF7320C8FB3200359E03 /* HandMadeDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF7120C8FB3200359E03 /* HandMadeDialogViewController.swift */; };
+		EA19BF7420C8FB3200359E03 /* HandMadeDialogViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19BF7220C8FB3200359E03 /* HandMadeDialogViewController.storyboard */; };
+		EA19BF7720C8FFEE00359E03 /* InspectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BF7620C8FFEE00359E03 /* InspectableView.swift */; };
 		EA947FBB20AD66B1000C350B /* OriginalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA947FB620AD66B0000C350B /* OriginalViewController.storyboard */; };
 		EA947FBC20AD66B1000C350B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FB720AD66B0000C350B /* TopViewController.swift */; };
 		EA947FBD20AD66B1000C350B /* OriginalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FB820AD66B0000C350B /* OriginalViewController.swift */; };
@@ -19,12 +28,17 @@
 		EA947FC820ADCB75000C350B /* ContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA947FC720ADCB75000C350B /* ContentViewController.storyboard */; };
 		EA947FCA20ADCE4D000C350B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA947FC920ADCE4D000C350B /* HeaderView.swift */; };
 		EA947FCC20ADCE57000C350B /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA947FCB20ADCE57000C350B /* HeaderView.xib */; };
+		EA94800720B27DDC000C350B /* ButtonEventRxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA94800620B27DDC000C350B /* ButtonEventRxViewController.swift */; };
+		EA94800920B27E0E000C350B /* ButtonEventRxViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA94800820B27E0E000C350B /* ButtonEventRxViewController.storyboard */; };
 		EABCC48F20AD5EEC00B05C86 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABCC48E20AD5EEC00B05C86 /* Storyboards.swift */; };
 		EADBDBA820AAF987006798E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBA720AAF987006798E7 /* AppDelegate.swift */; };
 		EADBDBAF20AAF988006798E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADBDBAE20AAF988006798E7 /* Assets.xcassets */; };
 		EADBDBB220AAF988006798E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADBDBB020AAF988006798E7 /* LaunchScreen.storyboard */; };
 		EADBDBBD20AAF988006798E7 /* PreMaterialComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBBC20AAF988006798E7 /* PreMaterialComponentsTests.swift */; };
 		EADBDBC820AAF988006798E7 /* PreMaterialComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADBDBC720AAF988006798E7 /* PreMaterialComponentsUITests.swift */; };
+		EAED955D20C9095A00749D1D /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAED955C20C9095A00749D1D /* Prelude.framework */; };
+		EAED956320C90E0400749D1D /* HandMadeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAED956220C90E0400749D1D /* HandMadeContentView.swift */; };
+		EAED956520C90E0D00749D1D /* HandMadeContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAED956420C90E0D00749D1D /* HandMadeContentView.xib */; };
 		FB8918851049CDFA5D055127 /* Pods_PreMaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +67,15 @@
 		77CAAAAEB1E6C626C28214F7 /* Pods_PreMaterialComponentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreMaterialComponentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE2DD6FD5181BCC391683B6 /* Pods-PreMaterialComponentsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponentsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponentsUITests/Pods-PreMaterialComponentsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C70D600E61A296AC94AF978D /* Pods-PreMaterialComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponents/Pods-PreMaterialComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		EA19BF5B20C7C19E00359E03 /* CustomDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogViewController.swift; sourceTree = "<group>"; };
+		EA19BF5D20C7C1B100359E03 /* CustomDialogViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomDialogViewController.storyboard; sourceTree = "<group>"; };
+		EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomDialogContentViewController.storyboard; sourceTree = "<group>"; };
+		EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDialogContentViewController.swift; sourceTree = "<group>"; };
+		EA19BF6820C7D67D00359E03 /* CustomDialogTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogTransitionViewController.swift; sourceTree = "<group>"; };
+		EA19BF6A20C8A54D00359E03 /* CustomPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
+		EA19BF7120C8FB3200359E03 /* HandMadeDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandMadeDialogViewController.swift; sourceTree = "<group>"; };
+		EA19BF7220C8FB3200359E03 /* HandMadeDialogViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HandMadeDialogViewController.storyboard; sourceTree = "<group>"; };
+		EA19BF7620C8FFEE00359E03 /* InspectableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectableView.swift; sourceTree = "<group>"; };
 		EA947FB620AD66B0000C350B /* OriginalViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OriginalViewController.storyboard; sourceTree = "<group>"; };
 		EA947FB720AD66B0000C350B /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		EA947FB820AD66B0000C350B /* OriginalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +86,8 @@
 		EA947FC720ADCB75000C350B /* ContentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContentViewController.storyboard; sourceTree = "<group>"; };
 		EA947FC920ADCE4D000C350B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		EA947FCB20ADCE57000C350B /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		EA94800620B27DDC000C350B /* ButtonEventRxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonEventRxViewController.swift; sourceTree = "<group>"; };
+		EA94800820B27E0E000C350B /* ButtonEventRxViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ButtonEventRxViewController.storyboard; sourceTree = "<group>"; };
 		EABCC48E20AD5EEC00B05C86 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		EADBDBA420AAF987006798E7 /* PreMaterialComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreMaterialComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADBDBA720AAF987006798E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +100,9 @@
 		EADBDBC320AAF988006798E7 /* PreMaterialComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreMaterialComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADBDBC720AAF988006798E7 /* PreMaterialComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreMaterialComponentsUITests.swift; sourceTree = "<group>"; };
 		EADBDBC920AAF988006798E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAED955C20C9095A00749D1D /* Prelude.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Prelude.framework; path = Carthage/Build/iOS/Prelude.framework; sourceTree = "<group>"; };
+		EAED956220C90E0400749D1D /* HandMadeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandMadeContentView.swift; sourceTree = "<group>"; };
+		EAED956420C90E0D00749D1D /* HandMadeContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HandMadeContentView.xib; sourceTree = "<group>"; };
 		F43FCA87D5391DBE950E46D7 /* Pods-PreMaterialComponentsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreMaterialComponentsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreMaterialComponentsUITests/Pods-PreMaterialComponentsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreMaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -84,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAED955D20C9095A00749D1D /* Prelude.framework in Frameworks */,
 				FB8918851049CDFA5D055127 /* Pods_PreMaterialComponents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +152,7 @@
 		BD42F04EFE8BA8AFED609F8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAED955C20C9095A00749D1D /* Prelude.framework */,
 				FF97B29C69A810C4E176EF36 /* Pods_PreMaterialComponents.framework */,
 				77CAAAAEB1E6C626C28214F7 /* Pods_PreMaterialComponentsTests.framework */,
 				5AC4EAC1B594EF9824F0EA6A /* Pods_PreMaterialComponentsUITests.framework */,
@@ -130,13 +160,56 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EA19BF5A20C7C13A00359E03 /* CustomDialog */ = {
+			isa = PBXGroup;
+			children = (
+				EA19BF5D20C7C1B100359E03 /* CustomDialogViewController.storyboard */,
+				EA19BF5B20C7C19E00359E03 /* CustomDialogViewController.swift */,
+				EA19BF6320C7C7D000359E03 /* Content */,
+				EA19BF7020C8FB3200359E03 /* Handmade */,
+			);
+			path = CustomDialog;
+			sourceTree = "<group>";
+		};
+		EA19BF6320C7C7D000359E03 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA19BF6420C7C7D000359E03 /* CustomDialogContentViewController.storyboard */,
+				EA19BF6520C7C7D000359E03 /* CustomDialogContentViewController.swift */,
+				EA19BF6820C7D67D00359E03 /* CustomDialogTransitionViewController.swift */,
+				EA19BF6A20C8A54D00359E03 /* CustomPresentationController.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		EA19BF7020C8FB3200359E03 /* Handmade */ = {
+			isa = PBXGroup;
+			children = (
+				EA19BF7220C8FB3200359E03 /* HandMadeDialogViewController.storyboard */,
+				EA19BF7120C8FB3200359E03 /* HandMadeDialogViewController.swift */,
+				EAED955F20C90B0E00749D1D /* view */,
+			);
+			path = Handmade;
+			sourceTree = "<group>";
+		};
+		EA19BF7520C8FFDF00359E03 /* ViewParts */ = {
+			isa = PBXGroup;
+			children = (
+				EA19BF7620C8FFEE00359E03 /* InspectableView.swift */,
+			);
+			path = ViewParts;
+			sourceTree = "<group>";
+		};
 		EA947FB420AD66B0000C350B /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				EA947FC020ADB9B7000C350B /* Original */,
-				EA947FBF20ADB9B7000C350B /* FlexibleHeader */,
 				EA947FB920AD66B0000C350B /* TopViewController.storyboard */,
 				EA947FB720AD66B0000C350B /* TopViewController.swift */,
+				EA19BF7520C8FFDF00359E03 /* ViewParts */,
+				EA947FC020ADB9B7000C350B /* Original */,
+				EA947FBF20ADB9B7000C350B /* FlexibleHeader */,
+				EA94800520B27DAD000C350B /* ButtonEventRx */,
+				EA19BF5A20C7C13A00359E03 /* CustomDialog */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -169,6 +242,15 @@
 				EA947FCB20ADCE57000C350B /* HeaderView.xib */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		EA94800520B27DAD000C350B /* ButtonEventRx */ = {
+			isa = PBXGroup;
+			children = (
+				EA94800820B27E0E000C350B /* ButtonEventRxViewController.storyboard */,
+				EA94800620B27DDC000C350B /* ButtonEventRxViewController.swift */,
+			);
+			path = ButtonEventRx;
 			sourceTree = "<group>";
 		};
 		EADBDB9B20AAF987006798E7 = {
@@ -232,6 +314,15 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		EAED955F20C90B0E00749D1D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EAED956420C90E0D00749D1D /* HandMadeContentView.xib */,
+				EAED956220C90E0400749D1D /* HandMadeContentView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -245,6 +336,7 @@
 				EADBDBA220AAF987006798E7 /* Resources */,
 				D401DB3F9C0D28D572DEB361 /* [CP] Embed Pods Frameworks */,
 				EADBDC6F20AD5DE0006798E7 /* SwiftGen */,
+				EAED955E20C9096B00749D1D /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -343,11 +435,16 @@
 			files = (
 				EA947FBB20AD66B1000C350B /* OriginalViewController.storyboard in Resources */,
 				EA947FC420ADC987000C350B /* FlexibleHeaderViewController.storyboard in Resources */,
+				EA19BF6620C7C7D000359E03 /* CustomDialogContentViewController.storyboard in Resources */,
 				EADBDBB220AAF988006798E7 /* LaunchScreen.storyboard in Resources */,
+				EAED956520C90E0D00749D1D /* HandMadeContentView.xib in Resources */,
 				EADBDBAF20AAF988006798E7 /* Assets.xcassets in Resources */,
+				EA94800920B27E0E000C350B /* ButtonEventRxViewController.storyboard in Resources */,
 				EA947FC820ADCB75000C350B /* ContentViewController.storyboard in Resources */,
 				EA947FBE20AD66B1000C350B /* TopViewController.storyboard in Resources */,
 				EA947FCC20ADCE57000C350B /* HeaderView.xib in Resources */,
+				EA19BF5E20C7C1B100359E03 /* CustomDialogViewController.storyboard in Resources */,
+				EA19BF7420C8FB3200359E03 /* HandMadeDialogViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +532,8 @@
 				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -444,6 +543,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -464,6 +565,21 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftgen >/dev/null; then\nswiftgen storyboards --template swift4 \"$PROJECT_DIR/PreMaterialComponents\" --output \"$PROJECT_DIR/PreMaterialComponents/Constants/Storyboards.swift\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi";
 		};
+		EAED955E20C9096B00749D1D /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Prelude.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -471,13 +587,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAED956320C90E0400749D1D /* HandMadeContentView.swift in Sources */,
 				EA947FBC20AD66B1000C350B /* TopViewController.swift in Sources */,
+				EA94800720B27DDC000C350B /* ButtonEventRxViewController.swift in Sources */,
+				EA19BF7320C8FB3200359E03 /* HandMadeDialogViewController.swift in Sources */,
+				EA19BF6920C7D67D00359E03 /* CustomDialogTransitionViewController.swift in Sources */,
 				EA947FBD20AD66B1000C350B /* OriginalViewController.swift in Sources */,
 				EA947FC220ADC95A000C350B /* FlexibleHeaderViewController.swift in Sources */,
 				EABCC48F20AD5EEC00B05C86 /* Storyboards.swift in Sources */,
 				EA947FC620ADCB6A000C350B /* ContentViewController.swift in Sources */,
 				EADBDBA820AAF987006798E7 /* AppDelegate.swift in Sources */,
+				EA19BF7720C8FFEE00359E03 /* InspectableView.swift in Sources */,
+				EA19BF6720C7C7D000359E03 /* CustomDialogContentViewController.swift in Sources */,
+				EA19BF5C20C7C19E00359E03 /* CustomDialogViewController.swift in Sources */,
 				EA947FCA20ADCE4D000C350B /* HeaderView.swift in Sources */,
+				EA19BF6B20C8A54D00359E03 /* CustomPresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +769,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PreMaterialComponents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -664,6 +792,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PreMaterialComponents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

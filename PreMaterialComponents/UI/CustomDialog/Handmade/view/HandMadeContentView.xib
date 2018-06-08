@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HandMadeContentView" customModule="PreMaterialComponents" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="220"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YGC-Z4-yFl">
+                    <rect key="frame" x="20" y="30" width="290" height="174"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="クーポンコードの入力" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RyL-s2-BuI">
+                            <rect key="frame" x="0.0" y="0.0" width="290" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="6sf-Q2-dMF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <color key="highlightedColor" white="0.038357204861111112" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9O-fH-7hR">
+                            <rect key="frame" x="0.0" y="27" width="290" height="113"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="クーポンコードを入力してください" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j5s-jo-ODB" customClass="MDCTextField">
+                                    <rect key="frame" x="0.0" y="49" width="290" height="15"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="j5s-jo-ODB" firstAttribute="centerY" secondItem="V9O-fH-7hR" secondAttribute="centerY" id="6Vp-c9-5gl"/>
+                                <constraint firstItem="j5s-jo-ODB" firstAttribute="leading" secondItem="V9O-fH-7hR" secondAttribute="leading" id="bDn-OK-4HE"/>
+                                <constraint firstItem="j5s-jo-ODB" firstAttribute="centerX" secondItem="V9O-fH-7hR" secondAttribute="centerX" id="bzw-Op-I7i"/>
+                                <constraint firstAttribute="trailing" secondItem="j5s-jo-ODB" secondAttribute="trailing" id="y5r-p6-O7a"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GDu-0K-KEk">
+                            <rect key="frame" x="0.0" y="150" width="290" height="24"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNh-Eh-I0Y">
+                                    <rect key="frame" x="166" y="0.0" width="60" height="24"/>
+                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
+                                    <state key="normal" title="キャンセル">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9t-9P-HrC">
+                                    <rect key="frame" x="242" y="0.0" width="48" height="24"/>
+                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="12"/>
+                                    <state key="normal" title="適用する"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="Gfs-Tw-T3h"/>
+                                <constraint firstItem="UNh-Eh-I0Y" firstAttribute="top" secondItem="Qy1-oJ-NeC" secondAttribute="top" id="NME-CJ-ihq"/>
+                                <constraint firstItem="h9t-9P-HrC" firstAttribute="bottom" secondItem="Qy1-oJ-NeC" secondAttribute="bottom" id="OAi-2j-264"/>
+                                <constraint firstItem="h9t-9P-HrC" firstAttribute="top" secondItem="Qy1-oJ-NeC" secondAttribute="top" id="Za7-87-Tpz"/>
+                                <constraint firstItem="Qy1-oJ-NeC" firstAttribute="trailing" secondItem="h9t-9P-HrC" secondAttribute="trailing" id="dXN-gU-Tie"/>
+                                <constraint firstItem="UNh-Eh-I0Y" firstAttribute="bottom" secondItem="Qy1-oJ-NeC" secondAttribute="bottom" id="iYk-Dr-msA"/>
+                                <constraint firstItem="h9t-9P-HrC" firstAttribute="leading" secondItem="UNh-Eh-I0Y" secondAttribute="trailing" constant="16" id="saW-ef-Doy"/>
+                            </constraints>
+                            <viewLayoutGuide key="safeArea" id="Qy1-oJ-NeC"/>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YGC-Z4-yFl" secondAttribute="trailing" constant="20" id="8SU-BF-4Eh"/>
+                <constraint firstItem="YGC-Z4-yFl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="V5b-pX-bRc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="YGC-Z4-yFl" secondAttribute="bottom" constant="16" id="VsU-uU-S0d"/>
+                <constraint firstItem="YGC-Z4-yFl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="sTt-H8-lB6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>
